@@ -1,0 +1,53 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+img{
+    border: 2.5px solid black;
+}
+h1{
+    font-size: 5.65px;
+    font-weight: bold;
+}
+#Education{
+    background-color: white;
+}
+
+.card-body{
+    margin-right: 10px;
+}
+
+#ContactMe{
+    padding-bottom: 60px;
+    text-align: center;
+
+}
+.btn{
+  background-color: rgb(104, 228, 189);
+  padding: 10px 20px 10px 20px;
+  
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  border-radius: 8px;
+}
+#footer{
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+
+    padding: 30px 10px;
+}
+
